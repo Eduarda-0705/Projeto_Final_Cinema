@@ -1,30 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Usuário\\Desktop\\ProjetoCinema\\cinemaApi\\CinemaAPI.csproj": {}
+    "C:\\Users\\madu-\\OneDrive\\Arquivos de Inglês\\Área de Trabalho\\Trabalho_Cinema\\Projeto_Final_Cinema\\CinemaAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Usuário\\Desktop\\ProjetoCinema\\cinemaApi\\CinemaAPI.csproj": {
+    "C:\\Users\\madu-\\OneDrive\\Arquivos de Inglês\\Área de Trabalho\\Trabalho_Cinema\\Projeto_Final_Cinema\\CinemaAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuário\\Desktop\\ProjetoCinema\\cinemaApi\\CinemaAPI.csproj",
+        "projectUniqueName": "C:\\Users\\madu-\\OneDrive\\Arquivos de Inglês\\Área de Trabalho\\Trabalho_Cinema\\Projeto_Final_Cinema\\CinemaAPI.csproj",
         "projectName": "CinemaAPI",
-        "projectPath": "C:\\Users\\Usuário\\Desktop\\ProjetoCinema\\cinemaApi\\CinemaAPI.csproj",
-        "packagesPath": "C:\\Users\\Usuário\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuário\\Desktop\\ProjetoCinema\\cinemaApi\\obj\\",
+        "projectPath": "C:\\Users\\madu-\\OneDrive\\Arquivos de Inglês\\Área de Trabalho\\Trabalho_Cinema\\Projeto_Final_Cinema\\CinemaAPI.csproj",
+        "packagesPath": "C:\\Users\\madu-\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\madu-\\OneDrive\\Arquivos de Inglês\\Área de Trabalho\\Trabalho_Cinema\\Projeto_Final_Cinema\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Usuário\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\madu-\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net9.0"
+          "net8.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net9.0": {
-            "targetAlias": "net9.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -37,12 +37,11 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.300"
+        }
       },
       "frameworks": {
-        "net9.0": {
-          "targetAlias": "net9.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "BCrypt.Net-Next": {
               "target": "Package",
@@ -50,31 +49,31 @@
             },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
-              "version": "[9.0.0, )"
+              "version": "[8.0.13, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[9.0.7, )"
+              "version": "[8.0.13, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.7, )"
-            },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[9.0.7, )"
+              "version": "[8.0.13, )"
             },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
-              "version": "[9.0.7, )"
+              "version": "[8.0.13, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
               "version": "[10.0.7, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[8.0.3, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -100,7 +99,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.413/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -10,12 +10,13 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 
 // JWT
-var key = Encoding.UTF8.GetBytes("CHAVE_SUPER_SECRETA_MUITO_GRANDE_123456");
+var key = Encoding.UTF8.GetBytes("MinhaChaveJWTSuperSeguraComMaisDe32CaracteresParaFuncionarCorretamente123456789");
 
 //  Banco de dados
+var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 builder.Services.AddDbContext<AppDbContext>(options =>
-    options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")));
-
+    options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString)));
+    
 //  CORS
 builder.Services.AddCors(options =>
 {

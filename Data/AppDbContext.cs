@@ -10,4 +10,6 @@ namespace CinemaApi.Data;
         }
 
         public DbSet<Usuario> Usuarios { get; set; }
+        public DbSet<Filme> Filmes => Set<Filme>();  
+        public DbSet<Sala> Salas => Set<Sala>();  
     }
